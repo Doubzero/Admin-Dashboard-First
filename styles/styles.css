@@ -2,4 +2,43 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 20px 20px 20px;
+  position: fixed;
+  background-color: #003d5b;
+  height: 100vh;
+  color: white;
+}
+.main-menu .nav-title {
+  font-size: 1.1rem;
+  padding-bottom: 30px;
+  justify-content: center;
+}
+.main-menu .nav-title .icon {
+  height: 0.8rem;
+  width: 1.2rem;
+}
+
+.icon {
+  height: 0.9rem;
+  display: inline;
+  padding-right: 5px;
+  filter: invert(100%) sepia(46%) saturate(2%) hue-rotate(10deg) brightness(106%) contrast(101%);
+}
+
+.main-menu ul {
+  list-style-type: none;
+  font-size: 0.8rem;
+}
+.main-menu li {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.sub-menu {
+  padding-top: 50px;
 }/*# sourceMappingURL=styles.css.map */
