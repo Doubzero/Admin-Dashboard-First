@@ -7,65 +7,99 @@
     <title>Dashboard</title>
   </head>
   <body>
-    <div class="main-menu">
-      <h2 class="nav-title">
-        <img src="./src/svg/cloud.svg" alt="DashIcon" class="icon" />Dashboard
-      </h2>
-      <ul>
-        <li>
-          <img src="./src/svg/home.svg" alt="Home Icon" class="icon" />Home
-        </li>
-        <li>
-          <img
-            src="./src/svg/account-outline.svg"
-            alt="Profile Icon"
-            class="icon"
-          />Profile
-        </li>
-        <li>
-          <img src="./src/svg/mail.svg" alt="Mail Icon" class="icon" />Messages
-        </li>
-        <li>
-          <img
-            src="./src/svg/history.svg"
-            alt="History Icon"
-            class="icon"
-          />History
-        </li>
-        <li>
-          <img
-            src="./src/svg/note-plus-outline.svg"
-            alt="Task Icon"
-            class="icon"
-          />Tasks
-        </li>
-        <li>
-          <img
-            src="./src/svg/account-group.svg"
-            alt="Com Icon"
-            class="icon"
-          />Communities
-        </li>
-      </ul>
-      <ul class="sub-menu">
-        <li>
-          <img src="./src/svg/cog.svg" alt="Cog Icon" class="icon" />Settings
-        </li>
-        <li>
-          <img
-            src="./src/svg/chat-question.svg"
-            alt="Support Icon"
-            class="icon"
-          />Support
-        </li>
-        <li>
-          <img
-            src="./src/svg/security.svg"
-            alt="Privacy Icon"
-            class="icon"
-          />Privacy
-        </li>
-      </ul>
-    </div>
+    <header class="header">
+      <div class="top">
+        <div class="search">
+          <label for="search">Search(label)</label>
+          <input type="text" name="search" id="search" />
+        </div>
+        <div class="search-right">
+          <p>item 1</p>
+          <p>item 2</p>
+          <p>item 3</p>
+        </div>
+      </div>
+      <div class="top">
+        <p>Avatar</p>
+        <div class="search-right">
+          <button>New</button>
+          <button>Upload</button>
+          <button>Share</button>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <div class="menu">
+        <ul>
+          <li class="logo">
+            <img
+              src="./src/svg/cloud.svg"
+              alt="DashIcon"
+              class="icon"
+            />Dashboard
+          </li>
+          <li>
+            <img src="./src/svg/home.svg" alt="Home Icon" class="icon" />Home
+          </li>
+          <li>
+            <img
+              src="./src/svg/account-outline.svg"
+              alt="Profile Icon"
+              class="icon"
+            />Profile
+          </li>
+          <li>
+            <img
+              src="./src/svg/mail.svg"
+              alt="Mail Icon"
+              class="icon"
+            />Messages
+          </li>
+          <li>
+            <img
+              src="./src/svg/history.svg"
+              alt="History Icon"
+              class="icon"
+            />History
+          </li>
+          <li>
+            <img
+              src="./src/svg/note-plus-outline.svg"
+              alt="Task Icon"
+              class="icon"
+            />Tasks
+          </li>
+          <li>
+            <img
+              src="./src/svg/account-group.svg"
+              alt="Com Icon"
+              class="icon"
+            />Communities
+          </li>
+        </ul>
+        <ul class="sub-menu">
+          <li>
+            <img src="./src/svg/cog.svg" alt="Cog Icon" class="icon" />Settings
+          </li>
+          <li>
+            <img
+              src="./src/svg/chat-question.svg"
+              alt="Support Icon"
+              class="icon"
+            />Support
+          </li>
+          <li>
+            <img
+              src="./src/svg/security.svg"
+              alt="Privacy Icon"
+              class="icon"
+            />Privacy
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="content"></div>
   </body>
 </html>
