@@ -88,5 +88,34 @@ nav ul .icon {
 
 .content {
   grid-area: content;
+  background-color: #00798c;
+  display: grid;
+  grid-template-areas: "projects announcements" "projects trending";
+  grid-template-columns: 1fr auto;
+  grid-template-rows: min-content 1fr;
+  gap: 2rem;
+}
+
+.projects {
+  grid-area: projects;
+  padding: 10px;
+}
+.projects .cards {
+  display: flex;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: 100px;
+  gap: 2rem;
+  padding-bottom: 10px;
+}
+.projects .card {
   background-color: #d1495b;
+  border-left: 4px solid #edae49;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 4px;
+}
+.projects .card-actions {
+  align-self: flex-end;
 }/*# sourceMappingURL=styles.css.map */
