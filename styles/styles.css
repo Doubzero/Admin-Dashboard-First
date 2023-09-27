@@ -111,7 +111,7 @@ nav ul .icon {
   grid-template-rows: max-content 1fr;
   gap: 2rem;
   overflow: auto;
-  color: #f6e4e4;
+  color: black;
 }
 
 .projects {
@@ -131,7 +131,7 @@ nav ul .icon {
 }
 
 .card {
-  background-color: #d1495b;
+  background-color: #a8d4f7;
   border-left: 4px solid #edae49;
   padding: 10px;
   display: flex;
