@@ -1,5 +1,7 @@
 <h1 align="center">Admin-Dashboard-First</h1>
-![](/src/description/Dashboard.png) 
+
+![](./src/description/Dashboard.png)
+
 <p align="center"> 
     Project Dashboard built with SASS and HTML.
     </p>
