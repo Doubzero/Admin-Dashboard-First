@@ -1,9 +1,12 @@
 <h1 align="center">Admin-Dashboard-First</h1>
-<!-- ![](/src/description/)  -->
-<!-- <p align="center"> 
-    DESCRIPTION
+![](/src/description/Dashboard.png) 
+<p align="center"> 
+    Project Dashboard built with SASS and HTML.
     </p>
- -->
+
+## Live Preview
+
+[Live Preview]()
 
 ## Short Description
 
